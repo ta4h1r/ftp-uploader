@@ -1,0 +1,17 @@
+{
+  "name": "uppy-multipart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taahir I. Bhaiyat",
+  "license": "ISC",
+  "dependencies": {
+    "@uppy/aws-s3": "^1.6.6",
+    "@uppy/aws-s3-multipart": "^1.7.1",
+    "@uppy/core": "^1.11.0",
+    "@uppy/dashboard": "^1.10.1"
+  }
+}

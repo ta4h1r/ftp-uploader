@@ -1,0 +1,19 @@
+{
+  "name": "fr-android-index",
+  "version": "1.0.0",
+  "description": "\"Uploads files to Apache server via an s3 buffer\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taahir I. Bhaiyat",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.658.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "basic-ftp": "^4.6.1"
+  }
+}

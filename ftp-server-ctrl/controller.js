@@ -54,7 +54,7 @@ async function putItems(queue, res) {
 
         try {
             await client.access({
-                host: "www.ctrlrobotics.com",
+                host: "www.myserveraddress.com",
                 port: 21,
                 user: "***",
                 password: "***",
@@ -142,26 +142,6 @@ async function putItems(queue, res) {
 
 // VIEW ALL
 exports.index = async (req, res) => {
-
-  // For input with an array of filenames
-  // const uploadDetails = await req.body;
-	// fileNames = uploadDetails.fileNames;
-  //
-	// for (i = 0; i < fileNames.length; i++) {
-  //   file = fileNames[i];
-  //
-    // params = {
-    //   Bucket: "ftp-file-buffer",
-    //   Key: file
-    // }
-  //
-  //   console.log(params);
-  //
-  //   queue.push(params);
-  //   savePathsLocal.push('temp/'+ file.split("/")[file.split("/").length -1]);
-  //   savePathsRemote.push('Test/' + file.split("/")[file.split("/").length -1]);
-  //
-	// }
 
   uploadDetails = req.body;
 
